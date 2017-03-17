@@ -1,0 +1,195 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background: #56CCF2; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #56CCF2 , #2F80ED); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #56CCF2 , #2F80ED);
+}
+
+header{
+    
+    
+    width: 100%;
+    height: 100px;
+}
+
+
+.skills{
+
+    height:700px;
+}
+
+
+.row{
+    
+    width: 100%;
+    z-index: 1;
+    perspective: 1000;
+}
+
+.one {
+    
+   
+    
+    min-width: 250px;
+        
+    display: flex;
+    
+    flex-wrap: wrap;
+
+    transition: 0.3s;
+  
+    
+    border: 1px solid ; 
+    
+    
+}
+
+
+.git{
+    
+    background-color: white;
+    flex-grow: 1;
+    
+    transform-style: preserve-3d;
+    transition: all 1.0s linear ;
+    
+    margin: 0 auto;
+    
+}
+
+
+.image{
+    margin: auto;
+    position: relative;
+   bottom: 50%;
+}
+
+
+.flip {
+  transform: rotateY(180deg);
+
+}
+
+.face {
+     backface-visibility: hidden;
+}
+
+.face.back {
+    transform: rotateY(180deg);
+   margin: auto;
+}
+
+
+
+.fb{
+        background-color: white;
+     flex-grow: 1;
+     transform-style: preserve-3d;
+    transition: all 1.0s linear ;
+}
+
+.watsapp{
+        background-color: white;
+     flex-grow: 1;
+     transform-style: preserve-3d;
+    transition: all 1.0s linear ;
+}
+
+.linkedin{
+        background-color: white;
+     flex-grow: 1;
+     transform-style: preserve-3d;
+    transition: all 1.0s linear ;
+    
+}
+
+
+.two{
+    
+      
+    height: 150px;
+    
+    min-width: 250px;
+        
+    display: flex;
+    
+    flex-wrap: wrap;
+
+    transition: 0.3s;
+  
+    
+    border: 1px solid ; 
+    
+}
+
+.gmail{
+       background-color: white;
+     flex-grow: 1;
+     transform-style: preserve-3d;
+    transition: all 1.0s linear ;
+    
+}
+
+.twelve{
+       background-color: white;
+     flex-grow: 1;
+     transform-style: preserve-3d;
+    transition: all 1.0s linear ;
+}
+
+.projects{
+       background-color: white;
+     flex-grow: 1;
+     transform-style: preserve-3d;
+    transition: all 1.0s linear ;
+}
+
+.blank{
+       background-color: white;
+     flex-grow: 1;
+     transform-style: preserve-3d;
+    transition: all 1.0s linear ;
+}
+
+.three{
+       
+
+    height: 150px;
+    
+    min-width: 250px;
+        
+    display: flex;
+    
+    flex-wrap: wrap;
+
+    transition: 0.3s;
+  
+    
+    border: 1px solid ; 
+}
+
+.android{
+       background-color: white;
+     flex-grow: 1;
+     transform-style: preserve-3d;
+    transition: all 1.0s linear ;
+}
+
+.ror{
+       background-color: white;
+     flex-grow: 1;
+     transform-style: preserve-3d;
+    transition: all 1.0s linear ;
+}
+
+.js{
+       background-color: white;
+     flex-grow: 1;
+     transform-style: preserve-3d;
+    transition: all 1.0s linear ;
+}
